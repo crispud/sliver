@@ -49,7 +49,7 @@ require (
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/AlecAivazis/survey.v1 v1.8.8
 	gorm.io/driver/mysql v1.4.5
-	gorm.io/driver/postgres v1.4.6
+	gorm.io/driver/postgres v1.4.7
 	gorm.io/driver/sqlite v1.4.4
 	gorm.io/gorm v1.24.3
 	gvisor.dev/gvisor v0.0.0-20220817001344-846276b3dbc5
