@@ -111,6 +111,12 @@ openbsd_amd64:
 	go generate 2>&1 | tee log-generate
 	go build -v ./...
 	#
+# only on openbsd/386
+openbsd_386:
+	@echo "Should be executed only on openbsd/386."
+	go generate 2>&1 | tee log-generate
+	go build -v ./...
+	
 # only on openbsd/arm64
 openbsd_arm64:
 	@echo "Should be executed only on openbsd/arm64."
@@ -161,7 +167,7 @@ edit:
 	@if [ -f "Session.vim" ]; then gvim -S & else gvim -p Makefile *.go & fi
 
 editor:
-	go generate 2>&1 | tee log
+	# go generate 2>&1 | tee log
 	gofmt -l -s -w *.go
 	go test -short 2>&1 | tee -a log
 	go install -v ./...
