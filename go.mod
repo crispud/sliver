@@ -19,7 +19,7 @@ require (
 	github.com/desertbit/go-shlex v0.1.1
 	github.com/desertbit/grumble v1.1.1
 	github.com/desertbit/readline v1.5.1
-	github.com/fatih/color v1.14.0
+	github.com/fatih/color v1.15.0
 	github.com/gofrs/uuid v4.3.1+incompatible
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/mux v1.8.0
@@ -40,7 +40,7 @@ require (
 	github.com/yiya1989/sshkrb5 v0.0.0-20201110125252-a1455b75a35e
 	golang.org/x/crypto v0.5.0
 	golang.org/x/net v0.5.0
-	golang.org/x/sys v0.4.0
+	golang.org/x/sys v0.6.0
 	golang.org/x/term v0.4.0
 	golang.org/x/text v0.6.0
 	golang.zx2c4.com/wireguard v0.0.0-20220316235147-5aff28b14c24
